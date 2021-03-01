@@ -1,5 +1,5 @@
 # rogerfk.github.io
 
-What do you mean the README.md is the main page?
+What did you expect?
 
 ![doge](images/dogemad.jpg?raw=true)
