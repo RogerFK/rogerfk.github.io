@@ -8,26 +8,32 @@
 <style>
 /* Not dedicating a .css file for an obsolete framework xoxo */
     .animate-title {
-        position: relative;
+        position: absolute;
         animation: animate-top 1.2s
     }
 
     @keyframes animate-top {
         from {
-            top: 69px;
+            top: 80%;
             opacity: 0
         }
 
         to {
-            top: 0;
+            top: 50%;
             opacity: 1
         }
     }
+.center-vertically {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 </style>
 
 <body>
 
-    <div class="w3-center w3-container w3-center animate-title">
+    <div class="w3-center w3-container w3-center center-vertically animate-title">
+        
         <h1>ServerMod2</h1>
         <!-- This sucks but sucks more for this to be git.io/smod2 -->
         <h2 style="padding-left: 20%; padding-right: 20%; position: relative;">ServerMod2 is a server side plugin system with a bunch of additional configuration options, bug fixes,
